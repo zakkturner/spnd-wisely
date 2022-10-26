@@ -1626,7 +1626,7 @@ hr.fancy::before {
     background-repeat : no-repeat;
     background        : center center;
     background-size   : contain;
-    background-image  : url(../images/icons/icon-quote.svg);
+    background-image  : url(images/icons/icon-quote.svg);
     transform         : translate(-50%, 0, 0);
     position          : absolute;
     top               : var(--vspace-1);
@@ -3204,7 +3204,7 @@ img.u-pull-left {
 }
 
 .s-intro__bg {
-    background-image    : url(../images/intro-bg.jpg);
+    background-image    : url(images/intro-bg.jpg);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -3576,27 +3576,27 @@ img.u-pull-left {
 }
 
 .service-icon--product-design {
-    background-image : url(../images/icons/services/icon-product-design.svg);
+    background-image : url(images/icons/services/icon-product-design.svg);
 }
 
 .service-icon--branding {
-    background-image : url(../images/icons/services/icon-branding.svg);
+    background-image : url(images/icons/services/icon-branding.svg);
 }
 
 .service-icon--frontend {
-    background-image : url(../images/icons/services/icon-frontend.svg);
+    background-image : url(images/icons/services/icon-frontend.svg);
 }
 
 .service-icon--research {
-    background-image : url(../images/icons/services/icon-research.svg);
+    background-image : url(images/icons/services/icon-research.svg);
 }
 
 .service-icon--illustration {
-    background-image : url(../images/icons/services/icon-illustration.svg);
+    background-image : url(images/icons/services/icon-illustration.svg);
 }
 
 .service-icon--ecommerce {
-    background-image : url(../images/icons/services/icon-ecommerce.svg);
+    background-image : url(images/icons/services/icon-ecommerce.svg);
 }
 
 /* -------------------------------------------------------------------
@@ -3897,13 +3897,13 @@ img.u-pull-left {
 }
 
 .video-block__bg-left {
-    background-image : url(../images/video-bg-01.jpg);
+    background-image : url(images/video-bg-01.jpg);
     left             : 0;
     right            : 50%;
 }
 
 .video-block__bg-right {
-    background-image : url(../images/video-bg-02.jpg);
+    background-image : url(images/video-bg-02.jpg);
     left             : 50%;
     right            : 0;
 }

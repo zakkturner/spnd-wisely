@@ -6,7 +6,7 @@
  *
  * TOC:
  * # PrismJS
- * # Swiper 
+ * # Swiper
  * # PhotoSwipe Main CSS
  * # PhotoSwipe Skin
  * # Basiclightbox
@@ -16,7 +16,7 @@
 /* ===================================================================
  * # PrismJS 1.20.0
  *   https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+markup-templating+php
- *   
+ *
  *   prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
  *   Based on https://github.com/chriskempson/tomorrow-theme
  *   @author Rose Pritchard
@@ -770,7 +770,7 @@ button.swiper-pagination-bullet {
 
 /* ===================================================================
  * # PhotoSwipe Main CSS by Dmitry Semenov
- *   photoswipe.com | MIT license 
+ *   photoswipe.com | MIT license
  *
  * ------------------------------------------------------------------- */
 /*
@@ -1034,9 +1034,9 @@ button.swiper-pagination-bullet {
     border  : 0;
 }
 
-/* 
-pswp__ui--over-close class it added when mouse is 
-over element that should close gallery 
+/*
+pswp__ui--over-close class it added when mouse is
+over element that should close gallery
 */
 .pswp__ui--over-close .pswp__button--close {
     opacity : 1;
@@ -1045,7 +1045,7 @@ over element that should close gallery
 .pswp__button,
 .pswp__button--arrow--left:before,
 .pswp__button--arrow--right:before {
-    background      : url(../images/photoswipe/default-skin.png) 0 0 no-repeat;
+    background      : url(images/photoswipe/default-skin.png) 0 0 no-repeat;
     background-size : 264px 88px;
     width           : 44px;
     height          : 44px;
@@ -1395,8 +1395,8 @@ a.pswp__share--download:hover {
 }
 
 .pswp--css_animation .pswp__preloader__cut {
-    /* 
-			The idea of animating inner circle is based on Polymer ("material") loading indicator 
+    /*
+			The idea of animating inner circle is based on Polymer ("material") loading indicator
 			 by Keanu Lee https://blog.keanulee.com/2014/10/20/the-tale-of-three-spinners.html
 		*/
     position : relative;
@@ -1606,7 +1606,7 @@ a.pswp__share--download:hover {
     right               : 1.8rem;
     width               : 2em;
     height              : 2em;
-    background          : url(../images/icons/icon-close-2.svg);
+    background          : url(images/icons/icon-close-2.svg);
     background-position : center;
     background-size     : 1.6rem 1.6rem;
     background-repeat   : no-repeat;
