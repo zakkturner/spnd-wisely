@@ -2,11 +2,10 @@
  * Tyndale 1.0.0 - Main JS
  *
  * ------------------------------------------------------------------- */
-
+import { default as anime } from '../node_modules/animejs/lib/anime.es.js';
 (function(html) {
 
     'use strict';
-
 
    /* animations
     * -------------------------------------------------- */
@@ -62,7 +61,7 @@
         if (!preloader) return;
 
         html.classList.add('ss-preload');
-        
+
         window.addEventListener('load', function() {
             html.classList.remove('ss-preload');
             html.classList.add('ss-loaded');
@@ -73,7 +72,7 @@
 
 
    /* mobile menu
-    * ---------------------------------------------------- */ 
+    * ---------------------------------------------------- */
     const ssMobileMenu = function() {
 
         const toggleButton = document.querySelector('.s-header__menu-toggle');
@@ -122,21 +121,21 @@
         window.addEventListener('scroll', navHighlight);
 
         function navHighlight() {
-        
+
             // Get current scroll position
             let scrollY = window.pageYOffset;
-        
-            // Loop through sections to get height(including padding and border), 
+
+            // Loop through sections to get height(including padding and border),
             // top and ID values for each
             sections.forEach(function(current) {
                 const sectionHeight = current.offsetHeight;
                 const sectionTop = current.offsetTop - 50;
                 const sectionId = current.getAttribute('id');
-            
-               /* If our current scroll position enters the space where current section 
-                * on screen is, add .current class to parent element(li) of the thecorresponding 
-                * navigation link, else remove it. To know which link is active, we use 
-                * sectionId variable we are getting while looping through sections as 
+
+               /* If our current scroll position enters the space where current section
+                * on screen is, add .current class to parent element(li) of the thecorresponding
+                * navigation link, else remove it. To know which link is active, we use
+                * sectionId variable we are getting while looping through sections as
                 * an selector
                 */
                 if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
@@ -193,7 +192,7 @@
 
                             let val = +counter.dataset.counter;
                             let valSpan = counter.querySelectorAll('span')[0];
-                            
+
                             valSpan.innerText = '0';
 
                             setTimeout(function() {
@@ -205,7 +204,7 @@
                                     duration: 2000
                                 });
                             }, i * 200);
-                            
+
                         });
                     }
                 }
@@ -216,7 +215,7 @@
 
 
    /* swiper
-    * ------------------------------------------------------ */ 
+    * ------------------------------------------------------ */
     const ssSwiper = function() {
 
         const clientsSwiper = new Swiper('.clients', {
@@ -294,7 +293,7 @@
             let titleText = '<h4>' + title.innerHTML + '</h4>';
             let captionText = caption.innerHTML;
             let href = thumbLink.getAttribute('href');
-            let size = thumbLink.dataset.size.split('x'); 
+            let size = thumbLink.dataset.size.split('x');
             let width  = size[0];
             let height = size[1];
 
@@ -363,7 +362,7 @@
     const ssAlertBoxes = function() {
 
         const boxes = document.querySelectorAll('.alert-box');
-  
+
         boxes.forEach(function(box){
 
             box.addEventListener('click', function(event) {
@@ -409,7 +408,7 @@
         }
 
         const triggers = document.querySelectorAll('.smoothscroll');
-        
+
         const moveTo = new MoveTo({
             tolerance: 0,
             duration: 1200,
